@@ -1,0 +1,10 @@
+<odoo>                                
+  <data>                                    
+    <record id="my_library_action" model="ir.actions.client">                                        
+      <field name="name">Tutorial Demo</field>                                        
+      <field name="tag">my_library.action</field>                                    
+    </record>                                    
+    <menuitem name="Hello World" id="my_library_menu_root" action="my_library_action">                                
+    </menuitem>
+  </data>                            
+</odoo>
